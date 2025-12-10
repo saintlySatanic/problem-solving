@@ -3,17 +3,18 @@
 Solutions to problems which I have solved in online judges && popular problem sets
 
 Mostly, I solve problems from popular problem sets and sheets, which include:
+- Striver DSA sheet
+- Neetcode
+- USACO problems
+- CSES problems
+- A2oj
 
-Striver DSA sheet
-Neetcode
-USACO problems
-CSES problems
-A2oj
+
 Some of the platforms that I use for contests are
+- Codeforces
+- Codechef
+- Atcoder
+- SPOJ
+- Leetcode
 
-Codeforces
-Codechef
-Atcoder
-SPOJ
-Leetcode
-If you find this repository helpful, follow along!
+If you find this repository helpful, follow along!!!
