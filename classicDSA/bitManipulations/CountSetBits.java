@@ -8,6 +8,7 @@ public class CountSetBits {
         int x = sc.nextInt();
 
         System.out.println("#Set bits is : " + countSetBits(x));
+        System.out.println("#Set bits is : " + countSetBitsBrianKerninghamAlgo(x));
         sc.close();
     }
 
@@ -17,6 +18,16 @@ public class CountSetBits {
         while(x > 0) {
             if ((x&1) == 1) setBits++;
             x>>=1;
+        }
+
+        return setBits;
+    }
+    
+    public static int countSetBitsBrianKerninghamAlgo(int x) {
+        int setBits = 0;
+        while(x > 0) {
+            x = (x & (x-1));
+            setBits++;
         }
 
         return setBits;
