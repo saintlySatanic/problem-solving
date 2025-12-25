@@ -62,4 +62,13 @@ public class TwoOddOccuring {
 
         return pos;
     }
+
+    public static int findFirstSetBitNumber(int x) {
+        /*
+        Will return the number with last set bit, 0110 --> 0010
+        Shortcut to find number with all 1's stripped except at the least significant position
+        */
+
+        return x & ~(x-1);
+    }
 }
